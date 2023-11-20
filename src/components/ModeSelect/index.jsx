@@ -29,7 +29,7 @@ function ModeSelect() {
         </MenuItem>
         <MenuItem value="dark">
           <div style={{ display:'flex', alignItems:'center', gap:'8px' }}>
-            <DarkModeOutlinedIcon fontSize='small'/> dark 
+            <DarkModeOutlinedIcon fontSize='small'/> dark
           </div>
         </MenuItem>
         <MenuItem value="system">
