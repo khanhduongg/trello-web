@@ -25,7 +25,7 @@ function Workspaces() {
     <Box>
       <Button
         id="basic-button-workspaces"
-        aria-controls={open ? 'basic-menu' : undefined}
+        aria-controls={open ? 'basic-menu-workspaces' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}

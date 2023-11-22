@@ -21,7 +21,7 @@ function Recent() {
     <Box>
       <Button
         id="basic-button-recent"
-        aria-controls={open ? 'basic-menu' : undefined}
+        aria-controls={open ? 'basic-menu-recent' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
